@@ -24,6 +24,9 @@ function About() {
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
               Know Who <strong className="purple">I'M</strong>
             </h1>
+            <h2 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+              Conoce Quien <strong className="purple">Soy</strong>
+            </h2>
             <Aboutcard />
           </Col>
           <Col
@@ -37,12 +40,18 @@ function About() {
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
         </h1>
+        <h2 className="project-heading">
+        Habilidades<strong className="purple">Profesionales </strong>
+        </h2>
 
         <Techstack />
 
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
         </h1>
+        <h2 className="project-heading">
+          <strong className="purple">Herramientas</strong> Que uso
+        </h2>
         <Toolstack />
 
         <Github />

@@ -17,18 +17,25 @@ function Projects() {
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
         </h1>
+
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
+        </p>
+        <h2 className="project-heading">
+          Mis trabajos <strong className="purple">Recientes </strong>
+        </h2>
+        <p style={{ color: "white" }}>
+          He aquí algunos proyectos en los que he trabajado recientemente.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="AlteaService"
+              description="Project for a mechanic workshop, in which you can see the services offered and their prices, the location of the workshop, contact form and a look with photos to the facilities give it a look!!!.  ----------------------------------------------------- Proyecto para un taller mecanico,en el cual se pueden ver los servicios que se ofrecen y sus precios,la ubicacion del taller, forma de contacto y un vistazo con fotos y videos a las instalaciones dale un vistazo."
+              ghLink="https://github.com/AgusConde9/AlteaService"
+              demoLink="https://alteaservicear.000webhostapp.com/index.html"
             />
           </Col>
 
@@ -36,10 +43,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="AlteaServiceShop"
+              description="A shopping system designed and implemented with HTML 5, CSS 3, JavaScript, React (JS) and SEO (Search Engine Optimization), in this the goal was to achieve a functional shopping cart to which you can add products so simulating a purchase of the business and with a shopping tab. You can see it in the buttons below this text! ----------------------------------------------------- Un sistema de compras diseñado e implementado con HTML 5, CSS 3, JavaScript, React (JS) y SEO (Search Engine Optimization), en este el objetivo fue lograr un carrito de compras funcional al cual se le puedan agregar productos simulando así una compra del negocio y con una pestaña de compras. ¡Puedes verlo en los botones debajo de este texto! " 
+              ghLink="https://github.com/AgusConde9/AlteaServiceShop"
+              demoLink="https://alteaserviceshop.000webhostapp.com/index.html"
             />
           </Col>
 
@@ -47,44 +54,21 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="TecnoCardalesShop"
+              description="In this project HTML 5, JavaScript, CSS 3, React (JS) and SEO were used for the implementation for the final work of the CoderHouse course on React JS. You can see it in the link below this text! Go ahead click the button don't be afraid!.----------------------------------------------------- En este proyecto se utilizaron para la implementacion HTML 5, JavaScript, CSS 3, React (JS) y SEO para el trabajo final del curso de CoderHouse sobre React JS"
+              ghLink="https://github.com/AgusConde9/TecnoCardalesShop"
+              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={editor}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Agutin Conde Portfolio"
+              description="This project is my website, a landing page which is about my portfolio of work done and information about me, the page is designed so that a client can be informed about who he would be contacting, it is developed with JavaScript, React (JS) and CSS 3. Click, Thanks!.----------------------------------------------------- Este proyecto es mi pagina web, una landing page la cual se trata sobre mi portafolio de trabajos hechos y sobre informacion mia,la pagina esta diseñada para que un cliente pueda informarse sobre a quien estaria contactando, esta desarrollada con JavaScript, React (JS) y CSS 3"
+              ghLink="https://github.com/AgusConde9/Agustin-Conde-Portfolio"
+              demoLink=""
             />
           </Col>
         </Row>
